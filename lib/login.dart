@@ -25,7 +25,7 @@ class _LoginState extends State<Login> {
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
     return Scaffold(
-      backgroundColor: Colors.green,
+      backgroundColor: Colors.green[900],
       body: SingleChildScrollView(
         child: Padding(
           padding: EdgeInsets.symmetric(horizontal: 5),
@@ -36,7 +36,7 @@ class _LoginState extends State<Login> {
                 SizedBox(
                   height: size.height * 0.10,
                 ),
-                Image.asset('assets/images/certsurveyor_logo_green_trans.png'),
+                Image.asset('assets/images/certsurveyor_logo_tight763.jpg'),
                 // Row(
                 //   children: [
                 //     Text('USERNAME', style: TextStyle(fontSize: 20)),

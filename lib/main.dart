@@ -1,4 +1,6 @@
+import 'package:disaster_app/forgetpasswordpage.dart';
 import 'package:disaster_app/login.dart';
+import 'package:disaster_app/signuppage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -34,6 +36,8 @@ class MyApp extends StatelessWidget {
       ),
       //home: const MyHomePage(title: 'Flutter Demo Home Page'),
       home: Login(),
+      //home: SignupPage(),
+      //home: ForgetPasswordPage(),
     );
   }
 }
